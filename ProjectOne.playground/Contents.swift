@@ -15,3 +15,16 @@ var secondString = "I combined the two variables"
 var thirdString = firstString + secondString
 print(thirdString)
 
+//Variable Coding Challenge #2
+
+func fahrenheitToCelsius(fahrenheit : Double) -> Double {
+    var result : Double
+    
+    result = (((fahrenheit - 32) * 5) / 9)
+    
+    return result
+}
+var fahrenheit = 50
+var celsius = fahrenheitToCelsius(fahrenheit:)
+(print); "Today is /(celsius) degrees celsius"
+
