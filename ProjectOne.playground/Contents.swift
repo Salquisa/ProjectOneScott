@@ -25,6 +25,12 @@ func fahrenheitToCelsius(fahrenheit : Double) -> Double {
     return result
 }
 var fahrenheit = 50
-var celsius = fahrenheitToCelsius(fahrenheit:)
+var  celsius = fahrenheitToCelsius(fahrenheit:)
 (print); "Today is /(celsius) degrees celsius"
+
+//Boolean Variables Coding Challenge #1
+
+var numberOne = 10
+var numberTwo = 5
+var numberThree = numberOne == numberTwo
 
